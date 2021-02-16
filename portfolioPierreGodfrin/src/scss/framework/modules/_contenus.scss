@@ -1,0 +1,42 @@
+/*
+  ./src/scss/framework/modules/_contenus.scss
+  Module des boites
+*/
+
+  /* ALIGNEMENTS DES CONTENUS */
+  /* _________________________________________________________________________*/
+
+    .contenu-centre {
+      text-align: center;
+    }
+
+    .contenu-gauche {
+      text-align: left;
+    }
+
+    .contenu-droite {
+      text-align: right;
+    }
+
+    .contenu-justifie {
+      text-align: justify;
+    }
+
+    /* TAILLES DES CONTENUS */
+  /* _________________________________________________________________________*/
+
+    .contenu-size-xs {
+      font-size: $contenuSizeXs;
+    }
+    
+    .contenu-size-s {
+      font-size: $contenuSizeS;
+    }
+
+    .contenu-size-m {
+      font-size: $contenuSizeM;
+    }
+
+    .contenu-size-l {
+      font-size: $contenuSizeL;
+    }

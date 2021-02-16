@@ -1,0 +1,23 @@
+/*
+  ./src/scss/framework/modules/_visibilites.scss
+  Module des visibilites
+*/
+
+  /* CONTENUS VISIBLES */
+  /* _________________________________________________________________________*/
+
+    @each $etiquette, $dimension in $grilleBreackPoints {
+
+      .#{$etiquette}-visible{
+        display: none;
+      }
+
+      @media screen and (min-width: #{$dimension}) {
+        .#{$etiquette}-cache {
+          display: none;
+        }
+        .#{$etiquette}-visible {
+          display: block;
+        }
+      }
+    }
